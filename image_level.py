@@ -110,9 +110,9 @@ with st.sidebar:
         st.session_state.saved_img_path=process.save_uploadedfile(image_file)
     else:
         # If no file has been uploaded, let the user select an image from the "images/" directory
-        selected_images=st.selectbox("Select Image",os.listdir(r"{0}/".format(data['images_dir_path'])))
+        selected_images=st.selectbox("Select Image",os.listdir("{0}/".format(data['images_dir_path'])))
         # Construct the path to the selected image and store it in the session state
-        st.session_state.saved_img_path=r"{0}\{1}".format(data['images_dir_path'],selected_images)
+        st.session_state.saved_img_path="{0}\{1}".format(data['images_dir_path'],selected_images)
         # Open the selected image file
         image = Image.open(st.session_state.saved_img_path)
         # Resize the image to 300x400 pixels
