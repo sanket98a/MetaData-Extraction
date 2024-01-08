@@ -4,3 +4,4 @@ streamlit_extras
 pandas
 Pillow
 pyyaml
+streamlit_js_eval
