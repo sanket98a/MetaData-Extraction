@@ -216,5 +216,5 @@ if len(st.session_state.Product_listed) != 0:
                     (product_dict1)),maxHeight=20)
         else:
             with col2:
-                st.error("Please uplaod the image again")
+                st.error("Please refresh the webpage and try uploading the image again.")
 ############################################################## END #####################################################################################
