@@ -210,7 +210,7 @@ if len(st.session_state.Product_listed) != 0:
                     else:
                         print(f"{key} :: {value}")
                 ui.table(data=pd.DataFrame(
-                    (product_dict1)))
+                    (product_dict1)),maxHeight=50)
         else:
             with col2:
                 st.error("Please uplaod the image again")
