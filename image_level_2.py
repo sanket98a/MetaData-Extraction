@@ -18,7 +18,7 @@ with open("env.yml", 'r') as file:
 
 ############################################### Header #############################################
 # Page Settings
-page_config = {"page_title": "image.io", "layout": "wide"}
+page_config = {"page_title": "IntelliTags.io", "layout": "wide"}
 st.set_page_config(**page_config)
 hide_streamlit_style = """
             <style>
