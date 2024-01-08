@@ -113,7 +113,7 @@ with st.sidebar:
         selected_images = st.selectbox("Select Image", os.listdir(
             r"{0}/".format(data['images_dir_path'])))
         # Construct the path to the selected image and store it in the session state
-        st.session_state.saved_img_path = r"{0}\{1}".format(
+        st.session_state.saved_img_path = r"{0}/{1}".format(
             data['images_dir_path'], selected_images)
         # Open the selected image file
         image = Image.open(st.session_state.saved_img_path)
