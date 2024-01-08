@@ -7,6 +7,7 @@ from PIL import Image
 import pandas as pd
 from PIL import Image
 import ast
+import shutil
 from streamlit_extras.metric_cards import style_metric_cards
 from streamlit_js_eval import streamlit_js_eval
 st.set_option('deprecation.showPyplotGlobalUse', False)
@@ -95,8 +96,10 @@ with st.sidebar:
 
     # Check if a file has been uploaded
     if image_file is not None:
+        if not os.path.exists("tempdb"):
+            os.mkdir("tempdb")
         # Construct the path where the uploaded file will be saved
-        saved_file_path = f"{data['saved_img_dir']}/{image_file.name}"
+        # saved_file_path = f"{data['saved_img_dir']}/{image_file.name}"
         # Store the file name and type in a dictionary
         file_details = {"FileName": image_file.name,
                         "FileType": image_file.type}
@@ -125,10 +128,14 @@ with st.sidebar:
             st.image(new_image)
     # Create a submit button
     submit = st.button("Submit")
-    refresh=st.button("Refresh")
+    st.info("Press the Delete button below to clear the temporary storage")
+    delete=st.button("Delete")
 
-if refresh:
-    streamlit_js_eval(js_expressions="parent.window.location.reload()")
+if delete:
+    shutil.rmtree("tempdb")
+    with st.sidebar:
+        st.success("All temporary images deleted successfully.")
+
 ############################################## GPT4 Vision model Calling #################################
 if submit:
     # predefined set of tags
@@ -217,4 +224,8 @@ if len(st.session_state.Product_listed) != 0:
         else:
             with col2:
                 st.error("Please refresh the webpage and try uploading the image again.")
+                st.info("If you encounter any errors, please click the ‘Refresh’ button.")
+                refresh=st.button("Refresh")
+                if refresh:
+                    streamlit_js_eval(js_expressions="parent.window.location.reload()")
 ############################################################## END #####################################################################################
