@@ -8,6 +8,7 @@ import pandas as pd
 from PIL import Image
 import ast
 from streamlit_extras.metric_cards import style_metric_cards
+from streamlit_js_eval import streamlit_js_eval
 st.set_option('deprecation.showPyplotGlobalUse', False)
 # from streamlit_react_flow import react_flow
 
@@ -124,8 +125,10 @@ with st.sidebar:
             st.image(new_image)
     # Create a submit button
     submit = st.button("Submit")
+    refresh=st.button("Refresh")
 
-
+if refresh:
+    streamlit_js_eval(js_expressions="parent.window.location.reload()")
 ############################################## GPT4 Vision model Calling #################################
 if submit:
     # predefined set of tags
