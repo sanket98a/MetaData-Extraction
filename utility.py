@@ -88,7 +88,7 @@ class Processing():
         """
 
         # Join the directory "images" and the name of the uploaded file to form the path where the file will be saved
-        saved_file_path = os.path.join("images", uploadedfile.name)
+        saved_file_path = os.path.join("tempdb", uploadedfile.name)
 
         # Open the file in write mode
         with open(saved_file_path, "wb") as f:
