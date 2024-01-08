@@ -116,3 +116,42 @@ Brand Logo/Label Recognition: Mango,GAP,Levis,GANT,Superdry,Tommy Hilfiger,H&M,Z
 Occasion Suitability: Casual,Formal,Parties/Evening,Sports,Maternity,Ethnic,Everyday,Work,HOLIDAY.
 Size and Fit Assessment: Slim Fit,Oversized,Regular,Skinny Fit,Loose Fit,easy fit."""
         return tags
+        
+    def tags_2(self):
+        """"
+        predefined_tags 
+        """
+        tags = """
+products category:TOPWEAR,BOTTOMWEAR
+TOPWEAR--
+
+Products:Shirt,Jumpsuit,Dungarees,Sleepwear,Sweatshirt,Innerwear,Dress,Top,T-shirts,Sweater/Cardigan,Hoodie,Jackets,Raincoat,LongCoat,Blazer,Suits (2-piece or 3-piece Men),Kurtas,Kurta Set,Maxi Dress,Showerproof.
+Color:Pink,Red,Blue,Black,Grey,Navy Blue,Charcoal Grey,White,Green,Olive,Brown,Beige,Khaki,Cream,Maroon,Off White,Grey Melange,Teal,Coffee Brown,Pink,Mustard,Purple,Rust,Sea Green,Burgundy,Turquoise Blue,Taupe,Silver,Mauve,Orange,Yellow,Multi,Lavender,Tan,Peach,Magenta,Fluorescent Green,Coral,Copper.
+Gender:Men,Women,Girls,Boys.
+Pattern:Striped,Checked,Embellished,Ribbed,Colourblocked,Dyed,Printed,Embroidered,Self-Design,Solid,Graphic,Floral,Polka Dots,Camouflage,Animal,Self-Design,Ombre.
+Silhouette:A-line,Peplum,Balloon,Fit and Flare,Sheath,Bodycon,Shirt Style,Jumper,Wrap,Kaftan.
+Neckline:Turtle/High Neck,Round Neck,Square Neck,Halter Neck,Scoop Neck,V neck Boat Neck,Polo Collar,Open-Collar,Crew Neck,Tie-Up Neck,Boat Neck,Shirt Neck.
+Sleeve Length:Sleeveless,Short Sleeves,Long Sleeves,Three-Quarter Sleeves.
+Sleeve Style:Batwing Sleeves,Bell Sleeves,Flared Sleeves,Balloon Sleeves,Puffed Sleeves,Cold Sleeves,Shoulder Sleeves,Regular Sleeves,Slit Sleeves,Roll Up Sleeves,No Sleeves,Flutter Sleeve.
+Fabric:Cotton,Polyster,Leather,Denim,Silk,Wool,Corduroy,Fleece,Schiffli,Terry,Crepe,Net,Georgette.
+Brand:Mango,Puma,Adidas,Nike,Calvin Klein,Lacoste,Fred Perry,Brooks Brothers,GAP,Levis,GANT,Superdry,Tommy Hilfiger,H&M,Zara,Louis Phillipe,Polo Raulph Lauren,Guess,Gucci,Prada,Versace,Aeropostale,Abercrombie & Fitch,DKNY,Michael Kors,Coach,Fendi.
+Occasion:Casual,Formal,Parties/Evening,Sports,Maternity,Ethnic,Everyday,Work,winters.
+Fit Type:Slim Fit,Oversized,Regular,Skinny Fit,Loose Fit.
+Top Wear Length:Midi,Maxi,Mini,Above Knee,Cropped,Regular.
+
+
+BOTTOMWEAR--
+
+Products:Trouser,Jeans,Shorts,Trackpants,Joggers,Cargos,Skirts.
+Color:Pink,Red,Blue,Black,Grey,Navy Blue,Charcoal Grey,White,Green,Olive,Brown,Beige,Khaki,Cream,Maroon,Off White,Grey Melange,Teal,Coffee Brown,Pink,Mustard,Purple,Rust,Sea Green,Burgundy,Turquoise Blue,Taupe,Silver,Mauve,Orange,Yellow,Multi,Lavender,Tan,Peach,Magenta,Fluorescent Green,Coral,Copper.
+Gender:Men,Women,Girls,Boys.
+Pattern:Striped,Checked,Embellished,Ribbed,Colourblocked,Dyed,Printed,Embroidered,Self-Design,Solid,Graphic,Floral,Polka Dots,Camouflage,Animal,Self-Design,Ombre.
+Bottom Style:Flared,Loose Fit,A-Line,Peplum,Skinny Fit,Pencil.
+Bottom Length:Above Knee,Below Knee,Knee Length,Midi,Mini,Ankle,Maxi,Regular length.
+Waist Rise:High-Rise,Low-Rise,Mid-Rise.
+Fabric:Cotton,Chambray,Polyster,Leather,Denim,Corduroy,Silk,Wool,Fleece,Velvet.
+Brand:Mango,Puma,Adidas,Nike,Calvin Klein,Lacoste,Fred Perry,Brooks Brothers,GAP,Levis,GANT,Superdry,Tommy Hilfiger,H&M,Zara,Louis Phillipe,Polo Raulph Lauren,Guess,Gucci,Prada,Versace,Aeropostale,Abercrombie & Fitch,DKNY,Michael Kors,Coach,Fendi.
+Occasion:Casual,Formal,Parties/Evening,Sports,Maternity,Ethnic,Everyday,Work.
+Fit Type:Slim Fit,Oversized,Regular,Skinny Fit,Loose Fit.
+"""
+        return tags
