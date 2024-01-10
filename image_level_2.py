@@ -80,7 +80,17 @@ if "product_dict" not in st.session_state:
 if "Product_listed" not in st.session_state:
     # If it's not, initialize it to an empty dictionary
     st.session_state.Product_listed = []
+    
+if "flag" not in st.session_state:
+    st.session_state.flag=False
 
+## automatically clear the temporary storage
+if st.session_state.flag==False:
+    if os.path.exists("tempdb"):
+        shutil.rmtree("tempdb") 
+        print("!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+        print("Cleard the temporary storage")
+    st.session_state.flag=True
 ############################################### GPT-4 Vision Model #############################################
 
 vision_model = MultiModel(api_key=data['api_key'], temp=0)
@@ -128,13 +138,13 @@ with st.sidebar:
             st.image(new_image)
     # Create a submit button
     submit = st.button("Submit")
-    st.info("Press the Delete button below to clear the temporary storage")
-    delete=st.button("Delete")
+    # st.info("Press the Delete button below to clear the temporary storage")
+    # delete=st.button("Delete")
 
-if delete:
-    shutil.rmtree("tempdb")
-    with st.sidebar:
-        st.success("All temporary images deleted successfully.")
+# if delete:
+#     shutil.rmtree("tempdb")
+#     with st.sidebar:
+#         st.success("All temporary images deleted successfully.")
 
 ############################################## GPT4 Vision model Calling #################################
 if submit:
