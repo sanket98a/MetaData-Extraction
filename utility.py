@@ -125,7 +125,7 @@ Size and Fit Assessment: Slim Fit,Oversized,Regular,Skinny Fit,Loose Fit,easy fi
 products category:TOPWEAR,BOTTOMWEAR
 TOPWEAR--
 
-Products:Shirt,Jumpsuit,Dungarees,Sleepwear,Sweatshirt,Innerwear,Dress,Top,T-shirt,Sweater/Cardigan,Hoodie,Jackets,Raincoat,LongCoat,Blazer,Suits (2-piece or 3-piece Men),Kurta,Kurta Set,Maxi Dress,Showerproof.
+Products:Shirt,Jumpsuit,Dungarees,Sleepwear,Sweatshirt,Innerwear,Dress,Top,T-shirt,Polo Collar T-shirt,Sweater/Cardigan,Hoodie,Jackets,Raincoat,LongCoat,Blazer,Suits (2-piece or 3-piece Men),Kurta,Kurta Set,Maxi Dress,Showerproof.
 Color:Pink,Red,Blue,Black,Grey,Navy Blue,Charcoal Grey,White,Green,Olive,Brown,Beige,Khaki,Cream,Maroon,Off White,Grey Melange,Teal,Coffee Brown,Pink,Mustard,Purple,Rust,Sea Green,Burgundy,Turquoise Blue,Taupe,Silver,Mauve,Orange,Yellow,Multi,Lavender,Tan,Peach,Magenta,Fluorescent Green,Coral,Copper.
 Gender:Men,Women,Girls,Boys.
 Pattern:Striped,Checked,Embellished,Ribbed,Colourblocked,Dyed,Printed,Embroidered,Self-Design,Solid,Graphic,Floral,Polka Dots,Camouflage,Animal,Self-Design,Ombre.
