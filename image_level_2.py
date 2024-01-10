@@ -146,7 +146,7 @@ if submit:
     prompt = f"""
 1. Accurately identify the topwear and/or bottomwear that is IN FOCUS AND CAPTURED FULLY within a given catalog image. Find the metadata for identified clothing worn, from this below information:\n{tags}""" + """and mention them in a list of structured json format.
 2. metadata JSON should consist of the following keys:
-      [{"products category":str,Products:str,Color:str,Gender:str,Pattern:str,Silhouette:str,Neckline:str,Sleeve Length:str,Sleeve Style:str,fabric:str,Brand:str,Occasion:str,Fit Type:str,Top Wear Length:str}]
+      [{"products category":str,Products:str,Color:str,Gender:str,Pattern:str,Silhouette:str,Neckline:str,Sleeve Length:str,Sleeve Style:str,Fabric:str,Brand:str,Occasion:str,Fit Type:str,Top Wear Length:str}]
 3. The color recognition tags provide a limited color range. However, you have the flexibility to label additional colors as required. if multi color, put all possible color in str using comma(',').
 4. Refrain from adding any extra comments into the JSON output.
 5. Do not forgot to add Gender and Material Composition Type based on identified products.
