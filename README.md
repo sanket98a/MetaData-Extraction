@@ -1,7 +1,6 @@
 # MetaData Extraction
 ![image](https://github.com/sanket98a/MetaData-Extraction/assets/124980064/85c76cfa-30ed-464d-8636-359cc51c4d70)
 
-[![Watch the video](https://i.stack.imgur.com/Vp2cE.png](https://github.com/sanket98a/MetaData-Extraction/assets/124980064/85c76cfa-30ed-464d-8636-359cc51c4d70)
 ## GPT-4 Vision Apparel Metadata Extractor
 ----------------------------------------------
 Welcome to the GPT-4 Vision Apparel Metadata Extractor repository! This innovative application utilizes the cutting-edge GPT-4 Vision model API to extract detailed metadata from images, focusing specifically on apparel items. Developed with a Python frontend and Streamlit UI, our solution offers seamless integration and a user-friendly experience.
