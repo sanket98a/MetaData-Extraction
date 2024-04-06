@@ -13,21 +13,18 @@ Welcome to the GPT-4 Vision Apparel Metadata Extractor repository! This innovati
 ## 💻  How to Use 
 1. **Clone the Repository**:
    Clone this repository to your local machine.
-   
    ```cmd
    abd.github.com
    ```
    
 3. **Install Dependencies** :- 
   Install the necessary Python dependencies.
-
-  ```cmd
-  pip install -r requirements.txt
+   ```cmd
+     pip install -r requirements.txt
    ```
   
 5. **Run the Application** :-
    Execute streamlit to launch the application locally.
-   
    ```cmd
    streamlit run app.py
    ```
