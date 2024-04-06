@@ -10,23 +10,32 @@ Welcome to the GPT-4 Vision Apparel Metadata Extractor repository! This innovati
 - **Top and Bottom Wear Classification** :- Metadata is divided into two categories: top wear and bottom wear.
 
 
-## How to Use
+## 💻  How to Use 
 1. **Clone the Repository**:
    Clone this repository to your local machine.
    
-   ```abd.github.com```
+   ```cmd
+   abd.github.com
+   ```
+   
 3. **Install Dependencies** :- 
   Install the necessary Python dependencies.
 
-  ```pip install -r requirements.txt```
+  ```cmd
+  pip install -r requirements.txt
+   ```
   
 5. **Run the Application** :-
    Execute streamlit to launch the application locally.
    
-   ```streamlit run app.py```
-6. **Upload an Image or Choose from Dropdown** :-
+   ```cmd
+   streamlit run app.py
+   ```
+   
+7. **Upload an Image or Choose from Dropdown** :-
    Select your preferred method to input the image.
-8. **View Metadata** :-
+   
+9. **View Metadata** :-
    Explore the extracted metadata for the focused apparel item, categorized into top wear and bottom wear.
 
 ## Benefits of Metadata Extraction in Apparel Industry
